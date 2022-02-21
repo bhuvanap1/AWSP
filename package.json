@@ -1,0 +1,28 @@
+{
+  "name": "awsp",
+  "version": "1.0.0",
+  "description": "![alt text](Sai.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev":"nodemon --watch server server/index.js",
+    "start":"node server/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bhuvanap1/AWSP.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bhuvanap1/AWSP/issues"
+  },
+"dependencies": {
+  "express": "~4.17.3"
+},
+"devDependencies": {
+  "nodemon":"^2.0.15"
+}
+}
+
+
