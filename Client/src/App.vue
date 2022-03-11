@@ -1,17 +1,15 @@
 <script setup lang="ts">
-import Nav from './components/Nav.vue';
-import Messages from './pages/Messages.vue';
+import Nav from './components/nav.vue';
 </script>
 
 <template>
-<Nav />
-
- <h1 class="title">
-  Hail Valdimer Putin
-</h1>
-<Messages />
+  <div>
+    <Nav />
+    <div class="container">
+        <router-view></router-view>
+    </div>
+  </div>
 </template>
 
 <style>
-
 </style>
