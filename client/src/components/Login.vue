@@ -5,7 +5,7 @@
         <div class="container-fluid py-5">
           <div class="row m-auto">
             <h2 class="mt-3 mb-4">
-              Manage your Tasks easily, faster and efficiently
+              Manage your Tasks easily and efficiently
             </h2>
             <div class="col-md-6">
               <form>
