@@ -1,28 +1,23 @@
 {
-  "name": "awsp",
+  "name": "todoapp",
   "version": "1.0.0",
-  "description": "![alt text](Sai.jpg)",
-  "main": "index.js",
+  "description": "manage users tasks",
+  "main": "app.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev":"nodemon --watch server server/index.js",
-    "start":"node server/index.js"
+    "start": "node app.js"
+    
   },
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/bhuvanap1/AWSP.git"
-  },
+  "keywords": [
+    "nodejs",
+    "mongoose",
+    "todo"
+  ],
   "author": "",
   "license": "ISC",
-  "bugs": {
-    "url": "https://github.com/bhuvanap1/AWSP/issues"
-  },
-"dependencies": {
-  "express": "~4.17.3"
-},
-"devDependencies": {
-  "nodemon":"^2.0.15"
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.1",
+    "mongoose": "^6.3.2"
+  }
 }
-}
-
-
